@@ -12,8 +12,23 @@
         </variables>
     </variant>
 
-    <variant name="guys, gals">
+    <fontSize name="small">
+        <variables>
+            <gamelistTextlistFontSize>0.025</gamelistTextlistFontSize>
+            <gamelistDescriptionFontSize>0.02</gamelistDescriptionFontSize>
+            <gamelistNameFontSize>0.05</gamelistNameFontSize>
+        </variables>
+    </fontSize>
 
+    <fontSize name="large">
+        <variables>
+            <gamelistTextlistFontSize>0.04</gamelistTextlistFontSize>
+            <gamelistDescriptionFontSize>0.03</gamelistDescriptionFontSize>
+            <gamelistNameFontSize>0.065</gamelistNameFontSize>
+        </variables>
+    </fontSize>
+
+    <variant name="guys, gals">
         <transitions>fadeAndInstant</transitions>
 
         <include>./colors.xml</include>
@@ -67,7 +82,7 @@
             </image>
             <textlist name="gamelistTextlist">
                 <pos>0.02 0.25</pos>
-                <size>0.4 0.65</size>
+                <size>0.4 0.7</size>
                 <selectorWidth>0</selectorWidth>
                 <selectorColor>${gamelistTextlistSelectorColor}</selectorColor>
                 <selectorColorEnd>${gamelistTextlistSelectorColorEnd}</selectorColorEnd>
@@ -78,7 +93,7 @@
                 <primaryColor>${gamelistTextlistPrimaryColor}</primaryColor>
                 <secondaryColor>${gamelistTextlistSecondaryColor}</secondaryColor>
                 <fontPath>./core/fonts/Exo2-BoldCondensed.otf</fontPath>
-                <fontSize>0.025</fontSize>
+                <fontSize>${gamelistTextlistFontSize}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <horizontalMargin>0.01</horizontalMargin>
                 <letterCase>uppercase</letterCase>
@@ -94,7 +109,7 @@
             </image>
             <image name="gamelistTextlistFrame">
                 <pos>0.02 0.23</pos>
-                <size>0.4 0.67</size>
+                <size>0.4 0.69</size>
                 <path>./core/images/frame.png</path>
                 <color>${gamelistBackFrameColor}</color>
                 <cornerRadius>0.01</cornerRadius>
@@ -111,7 +126,7 @@
             </video>
             <image name="gamelistDetailsFrame">
                 <pos>0.98 0.5</pos>
-                <size>0.4 0.41</size>
+                <size>0.4 0.425</size>
                 <origin>1 0</origin>
                 <path>./core/images/frame.png</path>
                 <color>${gamelistBackFrameColor}</color>
@@ -126,7 +141,7 @@
                 <color>000000</color>
                 <letterCase>uppercase</letterCase>
                 <fontPath>./core/fonts/Exo2-BoldCondensed.otf</fontPath>
-                <fontSize>0.05</fontSize>
+                <fontSize>${gamelistNameFontSize}</fontSize>
                 <container>true</container>
                 <containerType>horizontal</containerType>
                 <horizontalAlignment>center</horizontalAlignment>
@@ -141,7 +156,7 @@
                 <color>FFFFFF</color>
                 <letterCase>uppercase</letterCase>
                 <fontPath>./core/fonts/Exo2-BoldCondensed.otf</fontPath>
-                <fontSize>0.05</fontSize>
+                <fontSize>${gamelistNameFontSize}</fontSize>
                 <container>true</container>
                 <containerType>horizontal</containerType>
                 <horizontalAlignment>center</horizontalAlignment>
@@ -154,7 +169,7 @@
                 <origin>0.5 0</origin>
                 <color>000000</color>
                 <fontPath>./core/fonts/Exo2-RegularCondensed.otf</fontPath>
-                <fontSize>0.02</fontSize>
+                <fontSize>${gamelistDescriptionFontSize}</fontSize>
                 <container>true</container>
                 <containerType>vertical</containerType>
                 <horizontalAlignment>left</horizontalAlignment>
@@ -168,7 +183,7 @@
                 <origin>0.5 0</origin>
                 <color>FFFFFF</color>
                 <fontPath>./core/fonts/Exo2-RegularCondensed.otf</fontPath>
-                <fontSize>0.02</fontSize>
+                <fontSize>${gamelistDescriptionFontSize}</fontSize>
                 <container>true</container>
                 <containerType>vertical</containerType>
                 <horizontalAlignment>left</horizontalAlignment>
