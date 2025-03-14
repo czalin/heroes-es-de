@@ -1,0 +1,29 @@
+<theme>
+    <transitions>fadeAndSlide</transitions>
+    <view name="system, gamelist">
+        <image name="background">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./images/bgs/${system.theme}_bg.webp</path>
+            <zIndex>0</zIndex>
+        </image>
+    </view>
+    <view name="system">
+        <carousel name="systemCarousel">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <staticImage>./system-logos/system-logo-white/${system.theme}.svg</staticImage>
+            <color>00000000</color>
+            <itemScale>3</itemScale>
+            <selectedItemMargins>0.2 0.2</selectedItemMargins>
+            <fadeAbovePrimary>true</fadeAbovePrimary>
+            <zIndex>1</zIndex>
+        </carousel>
+        <image name="hero">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./images/heroes/${system.theme}_hero.webp</path>
+            <zIndex>2</zIndex>
+        </image>
+    </view>
+</theme>
