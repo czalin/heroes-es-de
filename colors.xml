@@ -15,10 +15,11 @@
             <systemHelpColorDimmed>969696</systemHelpColorDimmed>
 
             <!-- Gamelist view -->
-            <gamelistBackFrameColor>6F6F6F</gamelistBackFrameColor>
+            <gamelistBackFrameColor>222222</gamelistBackFrameColor>
             <gamelistTextlistSelectorColor>161616</gamelistTextlistSelectorColor>
-            <gamelistTextlistSelectedColor>AFAFAF</gamelistTextlistSelectedColor>
-            <gamelistTextlistPrimaryColor>000000</gamelistTextlistPrimaryColor>
+            <gamelistTextlistSelectorColorEnd>333333</gamelistTextlistSelectorColorEnd>
+            <gamelistTextlistSelectedColor>FFFFFF</gamelistTextlistSelectedColor>
+            <gamelistTextlistPrimaryColor>AFAFAF</gamelistTextlistPrimaryColor>
             <gamelistTextlistSecondaryColor>333333</gamelistTextlistSecondaryColor>
             <gamelistCustomCollectionsHeaderColor>C6C6C6</gamelistCustomCollectionsHeaderColor>
 
