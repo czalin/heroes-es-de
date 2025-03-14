@@ -23,7 +23,7 @@
     <fontSize name="large">
         <variables>
             <gamelistTextlistFontSize>0.04</gamelistTextlistFontSize>
-            <gamelistDescriptionFontSize>0.03</gamelistDescriptionFontSize>
+            <gamelistDescriptionFontSize>0.04</gamelistDescriptionFontSize>
             <gamelistNameFontSize>0.065</gamelistNameFontSize>
         </variables>
     </fontSize>
