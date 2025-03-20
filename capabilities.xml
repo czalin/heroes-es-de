@@ -24,13 +24,33 @@
         <startupToSystem>fade</startupToSystem>
     </transitions>
 
-    <variant name="guys">
-        <label>Guys</label>
+    <variant name="heroes">
+        <label>Heroes</label>
         <selectable>true</selectable>
     </variant>
 
-    <variant name="gals">
-        <label>Gals</label>
+    <variant name="heroines">
+        <label>Heroines</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="tavern-heroes">
+        <label>Tavern Heroes</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="tavern-heroines">
+        <label>Tavern Heroines</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="chill-heroes">
+        <label>Chill Heroes</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="chill-heroines">
+        <label>Chill Heroines</label>
         <selectable>true</selectable>
     </variant>
 </themeCapabilities>
