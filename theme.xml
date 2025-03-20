@@ -70,6 +70,7 @@
                 <size>0 1</size>
                 <origin>0.5 0.5</origin>
                 <path>./images/${variantImagePath}/bgs/${system.theme}_bg.webp</path>
+                <default>./images/${variantImagePath}/bgs/default_bg.webp</default>
                 <stationary>always</stationary>
                 <zIndex>0</zIndex>
             </image>
@@ -90,6 +91,7 @@
                 <size>0 1</size>
                 <origin>0.5 0.5</origin>
                 <path>./images/${variantImagePath}/overlays/${system.theme}_hero.webp</path>
+                <default>./images/${variantImagePath}/overlays/default_hero.webp</default>
                 <zIndex>51</zIndex>
                 <renderDuringTransitions>false</renderDuringTransitions>
             </image>
@@ -101,6 +103,7 @@
                 <size>0 1</size>
                 <origin>0.5 0.5</origin>
                 <path>./images/${variantImagePath}/bgs/${system.theme}_bg.webp</path>
+                <default>./images/${variantImagePath}/bgs/default_bg.webp</default>
                 <renderDuringTransitions>false</renderDuringTransitions>
                 <zIndex>0</zIndex>
             </image>
@@ -224,6 +227,7 @@
                 <size>0 1</size>
                 <origin>0.5 0.5</origin>
                 <path>./images/${variantImagePath}/overlays/${system.theme}_hero.webp</path>
+                <default>./images/${variantImagePath}/overlays/default_hero.webp</default>
                 <zIndex>51</zIndex>
                 <stationary>always</stationary>
             </image>
