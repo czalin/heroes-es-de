@@ -1,14 +1,38 @@
 <theme>
 
-    <variant name="guys">
+    <variant name="heroes">
         <variables>
-            <variantImagePath>guys</variantImagePath>
+            <variantImagePath>heroes</variantImagePath>
         </variables>
     </variant>
     
-    <variant name="gals">
+    <variant name="heroines">
         <variables>
-            <variantImagePath>gals</variantImagePath>
+            <variantImagePath>heroines</variantImagePath>
+        </variables>
+    </variant>
+    
+    <variant name="tavern-heroes">
+        <variables>
+            <variantImagePath>tavern-heroes</variantImagePath>
+        </variables>
+    </variant>
+    
+    <variant name="tavern-heroines">
+        <variables>
+            <variantImagePath>tavern-heroines</variantImagePath>
+        </variables>
+    </variant>
+    
+    <variant name="chill-heroes">
+        <variables>
+            <variantImagePath>chill-heroes</variantImagePath>
+        </variables>
+    </variant>
+    
+    <variant name="chill-heroines">
+        <variables>
+            <variantImagePath>chill-heroines</variantImagePath>
         </variables>
     </variant>
 
@@ -28,7 +52,7 @@
         </variables>
     </fontSize>
 
-    <variant name="guys, gals">
+    <variant name="heroes, heroines, tavern-heroes, tavern-heroines, chill-heroes, chill-heroines">
         <transitions>fadeAndInstant</transitions>
 
         <include>./colors.xml</include>
@@ -45,7 +69,7 @@
                 <pos>0.5 0.5</pos>
                 <size>0 1</size>
                 <origin>0.5 0.5</origin>
-                <path>./heroes/${variantImagePath}/bgs/${system.theme}_bg.webp</path>
+                <path>./images/${variantImagePath}/bgs/${system.theme}_bg.webp</path>
                 <stationary>always</stationary>
                 <zIndex>0</zIndex>
             </image>
@@ -65,7 +89,7 @@
                 <pos>0.5 0.5</pos>
                 <size>0 1</size>
                 <origin>0.5 0.5</origin>
-                <path>./heroes/${variantImagePath}/overlays/${system.theme}_hero.webp</path>
+                <path>./images/${variantImagePath}/overlays/${system.theme}_hero.webp</path>
                 <zIndex>51</zIndex>
                 <renderDuringTransitions>false</renderDuringTransitions>
             </image>
@@ -76,7 +100,7 @@
                 <pos>0.5 0.5</pos>
                 <size>0 1</size>
                 <origin>0.5 0.5</origin>
-                <path>./heroes/${variantImagePath}/bgs/${system.theme}_bg.webp</path>
+                <path>./images/${variantImagePath}/bgs/${system.theme}_bg.webp</path>
                 <renderDuringTransitions>false</renderDuringTransitions>
                 <zIndex>0</zIndex>
             </image>
@@ -199,7 +223,7 @@
                 <pos>0.5 0.5</pos>
                 <size>0 1</size>
                 <origin>0.5 0.5</origin>
-                <path>./heroes/${variantImagePath}/overlays/${system.theme}_hero.webp</path>
+                <path>./images/${variantImagePath}/overlays/${system.theme}_hero.webp</path>
                 <zIndex>51</zIndex>
                 <stationary>always</stationary>
             </image>
